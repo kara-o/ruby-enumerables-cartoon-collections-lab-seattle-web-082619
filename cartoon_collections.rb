@@ -25,17 +25,17 @@ end
 def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array = []
+  new_array = []
   
   array.each do |item|
     if cheese_types.include?(item)
-      array << item 
+      new_array << item 
     end
   end 
   
   binding.pry
   
-  array.length > 0 ? array[0] : nil
+  new_array.length > 0 ? new_array[0] : nil
   
 end
 
