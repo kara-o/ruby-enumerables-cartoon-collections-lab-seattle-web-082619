@@ -17,8 +17,14 @@ def find_the_cheese# code an argument here
 end
 
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(array)
+  new_arr = []
+  array.each do |item|
+    if item.length > 4
+      new_arr << item 
+    end 
+  end
+  new_arr.length > 0 ? true : false
 end
 
 def find_the_cheese# code an argument here
