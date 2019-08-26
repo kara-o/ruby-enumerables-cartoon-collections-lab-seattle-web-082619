@@ -33,7 +33,6 @@ def find_the_cheese(array)
     end
   end 
   
-  binding.pry
   
   new_array.length > 0 ? new_array[0] : nil
   
