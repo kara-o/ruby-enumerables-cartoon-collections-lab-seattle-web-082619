@@ -38,3 +38,6 @@ def find_the_cheese(array)
   array.length > 0 ? array[0] : nil
   
 end
+
+array = []
+find_the_cheese(array)
