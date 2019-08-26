@@ -38,6 +38,3 @@ def find_the_cheese(array)
   new_array.length > 0 ? new_array[0] : nil
   
 end
-
-array = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
-find_the_cheese(array)
